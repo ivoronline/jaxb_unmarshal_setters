@@ -4,7 +4,7 @@ import javax.xml.bind.Unmarshaller;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class Test {
+public class Unmarshal {
 
   public static void main(String[] args) throws JAXBException, FileNotFoundException {
     Unmarshaller unmarshaller = JAXBContext.newInstance(Person.class).createUnmarshaller();
